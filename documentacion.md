@@ -133,7 +133,7 @@ Después de finalizar este curso podrás responder a estas preguntas sin problem
 
 # 9. Buscando ayuda con herramientas en internet (Google, StackOverflow, ChatGPT)
 
-# 10. 
+# 10. Texto
 
 - La etiqueta "i" se utiliza para indicar que un texto debe aparecer en cursiva. Esta etiqueta no tiene una función semántica específica más allá de cambiar el estilo visual del texto. En cambio, la etiqueta "em" se utiliza para indicar que un texto es importante o enfatizado, y que el navegador debe enfatizar el texto de alguna manera.
 
@@ -173,5 +173,137 @@ En cambio, la etiqueta "strong" se utiliza para indicar que un texto es importan
 - ol (para crear una lista ordenada)
 - table (para crear una tabla de datos)
 
+# 11. Encabezados
 
+```html
+<!--Encabezados-->
+<h1>Titulo</h1>
+<h2>Subtitulo</h2>
+<h3>Subtitulo</h3>
+<h4>Subtitulo</h4>
+<h5>Subtitulo</h5>
+<h6>Subtitulo</h6>
+```
 
+# 12. Listas
+
+```html
+<!--Listas desordenadas-->
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+</ul>
+
+<!--Listas ordenadas-->
+<ol>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+</ol>
+
+<!--Listas de definicion-->
+<dl>
+    <dt>HTML</dt>
+    <dd>Es un lenguaje de marcado de texto</dd>
+    <dd>Se utiliza para el desarrollo de paginas de internet</dd>
+</dl>
+```
+
+# 13. Formato
+
+```html
+<p>Utiliza este codigo en CSS:
+    <code>{ background: blue; }</code>
+</p>
+
+<p>Utiliza este codigo en HTML: 
+    <code>&lt;body&gt;</code>
+</p>
+
+<p>Quiero
+    ver
+    esto<br />
+    en<br />
+    muchas<br />
+    lineas
+</p>
+
+<!--Superindices y subindices-->
+<p>CO<sub>2</sub></p>
+<p>n<sup>2</sup></p>
+<p>Referencia a un libro.<sup>1</sup></p>
+```
+
+# 14. Citas
+
+```html
+<!-- Citas -->
+<blockquote>
+    <p>La mediocridad para algunos es normal, la locura es poder ver mas alla.</p>
+    <cite>Charly Garcia</cite>
+</blockquote>
+
+<p>Jose Mujica dijo: 
+    <q>Ser libre es gastar la mayor cantidad de tiempo de nuestra vida en aquello que nos gusta hacer</q>
+</p>
+```
+
+# 15. Tiempo
+
+```html
+<!-- Fechas y tiempo -->
+
+<p>Nos vemos el
+    <time datetime="2024-04-20">Sabado</time>
+    a las
+    <time datetime="16:20:00.5-08:00">4:20</time>
+</p>
+
+<p>Nos vemos a las
+    <time datetime="2024-04-20 10:00-0800">10</time>
+</p>
+```
+
+# 16. Vinculos
+
+```html
+<!-- Vinculos-->
+<a href="blog.html">Ir a la pagina de Blog</a>
+```
+
+# 17. Vinculo relativo y vinculo absoluto
+
+```html
+Blog
+<p><a href="../index.html">Ir a la pagina principal(Vinculo Relativo)</a></p>
+<p><a href="http://www.google.com">Ir a la pagina principal(Vinculo Absoluto)</a></p>
+```
+
+# 18. Probando vinculos
+
+# 19. Navegacion
+
+```html
+<!-- Barras de Navegacion-->
+<nav role="navigation" aria-label="menu principal">
+    <a href="/">Hogar</a>
+    <a href="/blog.html">Blog</a>
+    <a href="/sections/about.html">Acerca de</a>
+</nav>
+
+<footer>
+    <a href="/">Hogar</a>
+    <a href="/blog.html">Blog</a>
+    <a href="/sections/about.html">Acerca de</a>
+</footer>
+```
+
+# 20. Imagenes
+
+```html
+<!-- IMAGENES -->
+<img src="./arches.jpg" alt="Arches" width="300">
+<img src="./hexagon.svg" alt="Hexagon" height="300">
+<img src="./giphy.gif" alt="Hexagon" height="300">
+```
